@@ -1,0 +1,8 @@
+===== RESULTADOS =====
+Tempo total de inserção (AVL): 13 ms
+Tempo de 1000 buscas na AVL: 1 ms
+Tempo de 1000 remoções na AVL: 3 ms
+Tempo de 1000 buscas na TreeMap: 0 ms
+
+=== ANÁLISE ===
+A árvore AVL apresentou tempos competitivos em comparação com a TreeMap, especialmente na remoção.
