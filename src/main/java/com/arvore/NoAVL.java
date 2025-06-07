@@ -1,11 +1,13 @@
 package com.arvore;
 
-class NoAVL {
-    int valor, altura;
-    NoAVL esquerda, direita;
+public class NoAVL {
+    Produto dado;
+    NoAVL esquerdo;
+    NoAVL direito;
+    int altura;
 
-    NoAVL(int valor) {
-        this.valor = valor;
+    public NoAVL(Produto dado) {
+        this.dado = dado;
         this.altura = 1;
     }
 }
